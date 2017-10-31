@@ -122,7 +122,7 @@ class GLCanvas extends Component {
     return <GLCanvasNative
       ref="native"
       {...restProps}
-      backgroundColor={processColor(backgroundColor)}
+      //backgroundColor={processColor(backgroundColor)}
       style={{ width, height }}
       onGLLoad={onLoad ? onLoad : null}
       onGLProgress={onProgress ? onProgress : null}
